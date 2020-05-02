@@ -20,7 +20,10 @@ Our goals are not only to create technical solutions to stand-in for physical cl
 **Wellness is going to be a critical tool for helping the next generation recover from the crisis.**
 
 ## Diagrams
-We created C4 diagrams to communicate the software architecture. Check them out in the [diagrams](diagrams) directory. 
+We created C4 diagrams to communicate the software architecture.
+![Context](./diagrams/glittr_c4_diagram_context.png)
+![Container](./diagrams/glittr_c4_diagram_container.png)
+![Component](./diagrams/glittr_c4_diagram_component.png)
 
 ## Install
 
