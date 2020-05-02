@@ -1,1 +1,1 @@
-web: gunicorn glittr:api
+web: gunicorn glittr.api:api
