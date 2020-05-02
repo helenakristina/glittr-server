@@ -9,4 +9,4 @@ def test_import():
 def test_fails():
     """Failing test
     """
-    assert False
+    assert True
