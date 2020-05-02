@@ -15,7 +15,7 @@ jobs:
             pip install -r requirements.txt
       - run:
           command: |
-            pip install -r test-requirements.txt && pytest -vvs
+            pip install --upgrade pip && pip install -r test-requirements.txt && pytest -vvs
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
           path: test-results
       - store_artifacts: # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
