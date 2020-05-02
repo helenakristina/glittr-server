@@ -18,4 +18,5 @@ class HealthCheck(Resource):
 api.add_resource(HealthCheck, "/health/")
 
 if __name__ == "__main__":
+    print(app)
     app.run(debug=True)
