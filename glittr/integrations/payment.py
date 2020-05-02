@@ -1,4 +1,3 @@
-#! /usr/bin/env python3.6
 """
 This module contains the server-side code for accepting a payment with Stripe.
 """
@@ -9,7 +8,7 @@ import stripe
 from flask import Flask, render_template, jsonify, request
 from flask_restful import Resource, Api
 
-stripe.api_key = os.environ['STRIPE_API_KEY']
+stripe.api_key = os.environ.get('STRIPE_API_KEY')
 
 
 
