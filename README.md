@@ -8,6 +8,7 @@ This repo contains the backend API for Glittr, a platform centered around bringi
 - [Diagrams](#diagrams)
 - [Install](#install)
 - [Usage](#usage)
+- [Testing](#testing)
 - [API](#api)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,8 +27,9 @@ We created C4 diagrams to communicate the software architecture.
 ![Component](./diagrams/glittr_c4_diagram_component.png)
 
 ## Install
-
+To install the Python dependencies, run
 ```
+$ make install
 ```
 
 ## Usage
@@ -36,6 +38,12 @@ We created C4 diagrams to communicate the software architecture.
 ```
 
 ### Any optional sections
+
+## Testing
+To run the tests, run
+```
+$ make test
+```
 
 ## API
 
