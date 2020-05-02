@@ -7,6 +7,6 @@ def test_import():
     from glittr import api
 
 def test_passes():
-    """Failing test
+    """Passing test
     """
     assert True
