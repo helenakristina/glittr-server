@@ -6,7 +6,6 @@ def test_import():
     """
     from glittr import api
 
-@pytest.mark.skip
 def test_fails():
     """Failing test
     """
