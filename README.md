@@ -20,7 +20,7 @@ Our goals are not only to create technical solutions to stand-in for physical cl
 **Wellness is going to be a critical tool for helping the next generation recover from the crisis.**
 
 ## Diagrams
-We created C4 diagrams to communicate the software architecture. Check them out in the [diagrams](https://github.com/helenakristina/glittr-server/tree/master/diagrams) directory. 
+We created C4 diagrams to communicate the software architecture. Check them out in the [diagrams](diagrams) directory. 
 
 ## Install
 
