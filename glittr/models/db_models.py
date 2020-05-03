@@ -1,20 +1,12 @@
 from datetime import datetime
-from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
 
-from glittr.api import app
-
-# probably put in the api file
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
-
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+from glittr.database.dtb import db
 
 class Artist(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(15), nullable=False)
     last_name = db.Column(db.String(25), nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
+    email = db.Column(db.String(100), unique=True, nullable=False)
     password_hash = db.Column(db.String(120), nullable=False)
     zip_code = db.Column(db.Integer, nullable=False)
     is_active = db.Column(db.Boolean, nullable=False)
@@ -24,44 +16,42 @@ class Artist(db.Model):
 
 class Parent(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key
+    artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
-
+    updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
 class Child(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key
+    artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
     date_of_birth = db.Column(db.DateTime, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
 class Parent_child(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key child
-    # foreign key parent
+    child_id = db.Column(db.Integer, db.ForeignKey('child.id'), nullable=False)
+    parent_id = db.Column(db.Integer, db.ForeignKey('parent.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
 class Instructor(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key artist
+    artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
 class Workshop(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key instructor
-    # foreign key status
-    scheduled_datetime = db.Column(db.DateTime, nullable=False)
+    instructor_id = db.Column(db.Integer, db.ForeignKey('instructor.id'), nullable=False)
+    status_id = db.Column(db.Integer, db.ForeignKey('status.id'), nullable=False)
     description = db.Column(db.Text, nullable=False)
     video_loc = db.Column(db.String)
     duration = db.Column(db.Integer)
     max_class_size = db.Column(db.Integer, nullable=False)
     price = db.Column(db.Float, nullable=False)
+    scheduled_dt = db.Column(db.DateTime, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-
 
 class Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -70,32 +60,36 @@ class Category(db.Model):
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
+# I'm having a hard time understanding why we need the workshop_category table when it just
+# has the same exact information from workshop and category.... we could just add 
+# categories = db.relationship('Category', backref='workshop', lazy=True) 
+# to the bottom of workshop
+
 class Workshop_category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key workshop
-    # foreign key category
+    workship_id = db.Column(db.Integer, db.ForeignKey('workshop.id'), nullable=False)
+    category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
 class Workshop_child(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key workshop
-    # foreign key child
+    workshop_id = db.Column(db.Integer, db.ForeignKey('workshop.id'), nullable=False)
+    child_id = db.Column(db.Integer, db.ForeignKey('child.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
 class Art(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # foreign key category
-    # max length for art_location?
+    category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
     art_location = db.Column(db.String, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
 class Artist_art(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # artist foreign key
-    # art_id foreign key
+    artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
+    art_id = db.Column(db.Integer, db.ForeignKey('art.id', nullable=False))
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
@@ -107,22 +101,19 @@ class Status(db.Model):
 
 class Payment_method(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # artist id foreign key
-    # max len for stripe_customer_id??
+    artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
     stripe_customer_id = db.Column(db.String, unique= True, nullable=False)
     stripe_payment_method_id = db.Column(db.String, nullable=False)
     payment_type = db.Column(db.String(10), nullable=False)
-    # way to limit to 4?
     last_4 = db.Column(db.Integer, nullable=False)
     exp_month = db.Column(db.Integer, nullable=False)
-    zip_code = db.Column(db.String)
+    zip_code = db.Column(db.String, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
-
 class Payment_instance(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    # payment method foroeign key
+    payment_method_id = db.Column(db.Integer, db.ForeignKey('payment_method.id'), nullable=False)
     total = db.Column(db.Float, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
