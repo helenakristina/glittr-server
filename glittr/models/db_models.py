@@ -60,10 +60,11 @@ class Category(db.Model):
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
-# I'm having a hard time understanding why we need the workshop_category table when it just
-# has the same exact information from workshop and category.... we could just add 
-# categories = db.relationship('Category', backref='workshop', lazy=True) 
-# to the bottom of workshop
+# # I'm having a hard time understanding why we need the workshop_category table when it just
+# # has the same exact information from workshop and category.... we could just add 
+# # categories = db.relationship('Category', backref='workshop', lazy=True) 
+# # to the bottom of workshop... 
+# # same w/ the parent_child relationship. 
 
 class Workshop_category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -89,7 +90,7 @@ class Art(db.Model):
 class Artist_art(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
-    art_id = db.Column(db.Integer, db.ForeignKey('art.id', nullable=False))
+    art_id = db.Column(db.Integer, db.ForeignKey('art.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
