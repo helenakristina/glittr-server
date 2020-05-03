@@ -1,4 +1,4 @@
 flask
 flask-restful
 gunicorn
-alembic
+Flask-Migrate
