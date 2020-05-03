@@ -2,3 +2,4 @@ flask
 flask-restful
 gunicorn
 Flask-Migrate
+stripe

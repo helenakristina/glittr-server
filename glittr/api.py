@@ -1,6 +1,8 @@
 from flask import Flask
 from flask_restful import Resource, Api
 
+from glittr.integrations.payment import PaymentIntent
+
 app = Flask(__name__)
 api = Api(app)
 
@@ -16,6 +18,7 @@ class HealthCheck(Resource):
 
 
 api.add_resource(HealthCheck, "/health/")
+api.add_resource(PaymentIntent, "/create-payment-intent/")
 
 if __name__ == "__main__":
     print(app)
