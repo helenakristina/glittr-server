@@ -1,15 +1,15 @@
 from datetime import datetime
 
-from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
+from flask_migrate import Migrate, MigrateCommand
+from flask_script import Manager
 
 from glittr.api import app
+from glittr.database.dtb import db
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
-db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-# from glittr.database.dtb import db
+manager = Manager(app)
+manager.add_command('db', MigrateCommand)
 
 class Artist(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -125,3 +125,6 @@ class Payment_instance(db.Model):
     total = db.Column(db.Float, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+
+if __name__ == '__main__':
+    manager.run()
