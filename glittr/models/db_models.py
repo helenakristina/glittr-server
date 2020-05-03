@@ -1,6 +1,15 @@
 from datetime import datetime
 
-from glittr.database.dtb import db
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+
+from glittr.api import app
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
+db = SQLAlchemy(app)
+migrate = Migrate(app, db)
+
+# from glittr.database.dtb import db
 
 class Artist(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -19,20 +28,22 @@ class Parent(db.Model):
     artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    children = db.relationship('Child', backref='parent')
 
 class Child(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     artist_id = db.Column(db.Integer, db.ForeignKey('artist.id'), nullable=False)
+    parent_id = db.Column(db.Integer, db.ForeignKey('parent.id'), nullable=False)
     date_of_birth = db.Column(db.DateTime, nullable=False)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
-class Parent_child(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    child_id = db.Column(db.Integer, db.ForeignKey('child.id'), nullable=False)
-    parent_id = db.Column(db.Integer, db.ForeignKey('parent.id'), nullable=False)
-    inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
+# class Parent_child(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     child_id = db.Column(db.Integer, db.ForeignKey('child.id'), nullable=False)
+#     parent_id = db.Column(db.Integer, db.ForeignKey('parent.id'), nullable=False)
+#     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+#     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
 class Instructor(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -44,6 +55,7 @@ class Workshop(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     instructor_id = db.Column(db.Integer, db.ForeignKey('instructor.id'), nullable=False)
     status_id = db.Column(db.Integer, db.ForeignKey('status.id'), nullable=False)
+    category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
     description = db.Column(db.Text, nullable=False)
     video_loc = db.Column(db.String)
     duration = db.Column(db.Integer)
@@ -55,23 +67,18 @@ class Workshop(db.Model):
 
 class Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    workshops = db.relationship('Workshop', backref='category')   
     name = db.Column(db.String, nullable=False)
     description = db.Column(db.String)
     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
-# # I'm having a hard time understanding why we need the workshop_category table when it just
-# # has the same exact information from workshop and category.... we could just add 
-# # categories = db.relationship('Category', backref='workshop', lazy=True) 
-# # to the bottom of workshop... 
-# # same w/ the parent_child relationship. 
-
-class Workshop_category(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    workship_id = db.Column(db.Integer, db.ForeignKey('workshop.id'), nullable=False)
-    category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
-    inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
+# class Workshop_category(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     workship_id = db.Column(db.Integer, db.ForeignKey('workshop.id'), nullable=False)
+#     category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
+#     inserted_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+#     updated_dt = db.Column(db.DateTime, nullable=False, default=datetime.utcnow) 
 
 class Workshop_child(db.Model):
     id = db.Column(db.Integer, primary_key=True)
