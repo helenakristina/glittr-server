@@ -1,4 +1,7 @@
 flask
 flask-restful
+Flask-Script
 gunicorn
+Flask-Migrate
 stripe
+
