@@ -4,4 +4,4 @@ Flask-Script
 gunicorn
 Flask-Migrate
 stripe
-
+flask-cors
