@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restful import Resource, Api
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from flask_cors import CORS
 
 from glittr.integrations.payment import PaymentIntent
 
@@ -12,6 +13,12 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
+
+
+# Sets the 'Access-Control-Allow-Origin' header on the response to avoid
+# Stripe creating CORS error from server & client being on different domains
+# TODO enable credential’ed requests & add ensure CSRF protection
+CORS(app)
 
 class HealthCheck(Resource):
     """Endpoint for checking health of the application

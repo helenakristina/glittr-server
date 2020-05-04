@@ -4,3 +4,6 @@ install:
 
 test:
 	@pytest -vvs ./tests
+
+runserver:
+	@python3 -m glittr.api
