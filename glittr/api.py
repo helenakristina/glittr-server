@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
 
-from glittr.integrations.payment import PaymentIntent
+from glittr.integrations.payment import PaymentIntent, StripeWebhook
 
 app = Flask(__name__)
 api = Api(app)
@@ -32,6 +32,7 @@ class HealthCheck(Resource):
 
 api.add_resource(HealthCheck, "/health/")
 api.add_resource(PaymentIntent, "/create-payment-intent/")
+api.add_resource(StripeWebhook, "/stripe-webhook/")
 
 if __name__ == "__main__":
     print(app)
