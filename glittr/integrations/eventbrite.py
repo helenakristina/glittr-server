@@ -7,8 +7,8 @@ import json
 import os
 
 import requests
-from flask import Flask, render_template, jsonify, request
-from flask_restful import Resource, Api
+from flask import jsonify, request
+from flask_restful import Resource
 
 
 EVENTBRITE_API_KEY = os.environ.get('EVENTBRITE_API_KEY')

@@ -5,8 +5,8 @@ import json
 import os
 
 import stripe
-from flask import Flask, render_template, jsonify, request
-from flask_restful import Resource, Api
+from flask import jsonify, request
+from flask_restful import Resource
 
 stripe.api_key = os.environ.get('STRIPE_API_KEY')
 
