@@ -6,6 +6,8 @@ from flask_cors import CORS
 
 from glittr.integrations.payment import (PaymentIntent, StripeWebhook,
                                          ChargeSavedCard)
+from glittr.integrations.eventbrite import FetchEvents
+
 
 app = Flask(__name__)
 api = Api(app)
@@ -35,6 +37,7 @@ api.add_resource(HealthCheck, "/health/")
 api.add_resource(PaymentIntent, "/create-payment-intent/")
 api.add_resource(ChargeSavedCard, "/charge-saved-card/")
 api.add_resource(StripeWebhook, "/stripe-webhook/")
+api.add_resource(FetchEvents, "/fetch-events/")
 
 if __name__ == "__main__":
     print(app)
