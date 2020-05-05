@@ -24,7 +24,7 @@ class FetchEvents(Resource):
     def get(self):
         try:
             url = 'https://www.eventbriteapi.com/v3/users/me/events/'
-            headers = {'Authorization': f'Bearer 3{EVENTBRITE_API_KEY}'}
+            headers = {'Authorization': f'Bearer {EVENTBRITE_API_KEY}'}
             response = requests.get(url, headers=headers)
             response.raise_for_status()
             return jsonify(response.json())
