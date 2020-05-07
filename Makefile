@@ -16,3 +16,5 @@ upgradedb:
 
 rollbackdb:
 	@python glittr/models/db_models.py db downgrade
+runserver:
+	@python3 -m glittr.api
