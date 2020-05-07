@@ -1,4 +1,13 @@
 flask
 flask-restful
+<<<<<<< Updated upstream
 gunicorn
 stripe
+=======
+Flask-Migrate
+Flask-Script
+gunicorn
+psycopg2-binary
+stripe
+
+>>>>>>> Stashed changes

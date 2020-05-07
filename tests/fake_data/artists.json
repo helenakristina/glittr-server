@@ -1,0 +1,2002 @@
+[
+    {
+        "artist_id": 3,
+        "first_name": "Lee",
+        "last_name": "Fuller",
+        "email": "entomb1877@live.com",
+        "password_hash": "f1a8081ef1efc8b1775d9a569a379178",
+        "zip_code": "55718",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 2,
+        "first_name": "Vincenzo",
+        "last_name": "Fuller",
+        "email": "chaka2058@yandex.com",
+        "password_hash": "6922c268b97b07fa315f77e4cf2d549d",
+        "zip_code": "55718",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 5,
+        "first_name": "Jeneva",
+        "last_name": "Heath",
+        "email": "carrefour1858@outlook.com",
+        "password_hash": "9cf45ee9e923f5a89ee2620792c917bf",
+        "zip_code": "48604",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 4,
+        "first_name": "Wilford",
+        "last_name": "Heath",
+        "email": "mongoose1975@yahoo.com",
+        "password_hash": "e9b009493bf6982ca899881bd89c4a8e",
+        "zip_code": "48604",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 7,
+        "first_name": "Carl",
+        "last_name": "Blair",
+        "email": "sak1923@live.com",
+        "password_hash": "ef345de710b96686040c461f43e238af",
+        "zip_code": "27320",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 6,
+        "first_name": "Thurman",
+        "last_name": "Blair",
+        "email": "gummers1881@protonmail.com",
+        "password_hash": "96b540b302d59aa8591995fb3679b348",
+        "zip_code": "27320",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 9,
+        "first_name": "Clark",
+        "last_name": "Kaufman",
+        "email": "daaboul1908@live.com",
+        "password_hash": "39f03dbcb7bc6a6637b51d0b3ac2f33f",
+        "zip_code": "41040",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 8,
+        "first_name": "Lucien",
+        "last_name": "Kaufman",
+        "email": "watercourses1851@protonmail.com",
+        "password_hash": "c6a453e8b39b91002dff800601d3a8bc",
+        "zip_code": "41040",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 11,
+        "first_name": "Jani",
+        "last_name": "Bridges",
+        "email": "proforma1973@yahoo.com",
+        "password_hash": "487caa1548f96082601ceb40a02d3431",
+        "zip_code": "67750",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 10,
+        "first_name": "Magaly",
+        "last_name": "Bridges",
+        "email": "cycloid2019@outlook.com",
+        "password_hash": "d4f1ba4027c058ccaaaac80748a5bbdd",
+        "zip_code": "67750",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 13,
+        "first_name": "Tanner",
+        "last_name": "Bridges",
+        "email": "cachet1868@outlook.com",
+        "password_hash": "efe22302b927847b149479ac7c804bdf",
+        "zip_code": "39683",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 12,
+        "first_name": "Despina",
+        "last_name": "Bridges",
+        "email": "stele2035@outlook.com",
+        "password_hash": "e10db3d66854e64241de8889c58843f8",
+        "zip_code": "39683",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 15,
+        "first_name": "Don",
+        "last_name": "Burns",
+        "email": "cabral1887@outlook.com",
+        "password_hash": "edffa73f3f5e7725e3b784e6cd1177d6",
+        "zip_code": "22509",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 14,
+        "first_name": "Joette",
+        "last_name": "Burns",
+        "email": "hyracina1879@yahoo.com",
+        "password_hash": "282b621cbb6bb294d39593aa8f8766bc",
+        "zip_code": "22509",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 17,
+        "first_name": "Rubin",
+        "last_name": "Wong",
+        "email": "triceratopses1903@yahoo.com",
+        "password_hash": "6e79775c7c6c4c688ee39851e4a15171",
+        "zip_code": "15833",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 16,
+        "first_name": "Shandra",
+        "last_name": "Wong",
+        "email": "superinference1868@live.com",
+        "password_hash": "9928ba44e792d1346936ce010f6c91f8",
+        "zip_code": "15833",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 19,
+        "first_name": "Talisha",
+        "last_name": "Cain",
+        "email": "deperition1828@yahoo.com",
+        "password_hash": "ca1abc0aab749888fd581a2328629409",
+        "zip_code": "59353",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 18,
+        "first_name": "Dee",
+        "last_name": "Cain",
+        "email": "rewards1835@yahoo.com",
+        "password_hash": "42b036e20d5893d8d8f5bb39642e8c4d",
+        "zip_code": "59353",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 21,
+        "first_name": "Efren",
+        "last_name": "Boyd",
+        "email": "recrank2070@yandex.com",
+        "password_hash": "dcf0d8aabf3b7e359945af414d5db1ce",
+        "zip_code": "02242",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 20,
+        "first_name": "Anton",
+        "last_name": "Boyd",
+        "email": "whitherso1940@outlook.com",
+        "password_hash": "0f2e003263f892d591cca310ba605355",
+        "zip_code": "02242",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 23,
+        "first_name": "Kristofer",
+        "last_name": "Williamson",
+        "email": "islamitic2054@yahoo.com",
+        "password_hash": "0e6166c6590bb3a7072e55950544fc14",
+        "zip_code": "23565",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 22,
+        "first_name": "Federico",
+        "last_name": "Williamson",
+        "email": "corabelle1959@yahoo.com",
+        "password_hash": "35bac6cfdaa6b7d88ac88f84deb25c95",
+        "zip_code": "23565",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 25,
+        "first_name": "Leroy",
+        "last_name": "Lane",
+        "email": "barrelfuls1821@live.com",
+        "password_hash": "cc2e306e74d8ac073c45849fc3f7c61e",
+        "zip_code": "48586",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 24,
+        "first_name": "Ladawn",
+        "last_name": "Lane",
+        "email": "habilimented1958@protonmail.com",
+        "password_hash": "313dfe003807a36d6f07823cd801a70e",
+        "zip_code": "48586",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 27,
+        "first_name": "Todd",
+        "last_name": "Delacruz",
+        "email": "cadwal2015@yahoo.com",
+        "password_hash": "7b77c4ed2e91308a1ab89f4ae906d6ff",
+        "zip_code": "20587",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 26,
+        "first_name": "Earlean",
+        "last_name": "Delacruz",
+        "email": "deviated1879@gmail.com",
+        "password_hash": "e69f0ac8e32df56f8694f912a290cd0a",
+        "zip_code": "20587",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 29,
+        "first_name": "Shin",
+        "last_name": "Santana",
+        "email": "bathed1940@live.com",
+        "password_hash": "25c71d536b3784bd7a9f0f7cdf8e3c6b",
+        "zip_code": "46271",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 28,
+        "first_name": "Dirk",
+        "last_name": "Santana",
+        "email": "unmelted1934@yandex.com",
+        "password_hash": "4e7d36d3134debb51f62215739944dd4",
+        "zip_code": "46271",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 31,
+        "first_name": "Clementina",
+        "last_name": "Gates",
+        "email": "tarmacadam1942@live.com",
+        "password_hash": "532c220dd31fa263c25484475b4dbb24",
+        "zip_code": "20145",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 30,
+        "first_name": "Arla",
+        "last_name": "Gates",
+        "email": "popularise1846@yandex.com",
+        "password_hash": "64bd600f11e796b081d4686006147640",
+        "zip_code": "20145",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 33,
+        "first_name": "Truman",
+        "last_name": "Boone",
+        "email": "unreliable1960@gmail.com",
+        "password_hash": "3c68798ea643cbde1593e40808858401",
+        "zip_code": "37546",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 32,
+        "first_name": "Eustolia",
+        "last_name": "Boone",
+        "email": "brindlish1874@live.com",
+        "password_hash": "246e6be368199356015d372ab99f8dea",
+        "zip_code": "37546",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 35,
+        "first_name": "Linwood",
+        "last_name": "Wilkins",
+        "email": "salaried1829@gmail.com",
+        "password_hash": "3aa160ac15abdfc5df0807836a165d2e",
+        "zip_code": "44377",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 34,
+        "first_name": "Aaron",
+        "last_name": "Wilkins",
+        "email": "agent1849@yahoo.com",
+        "password_hash": "a5a9b18f8396157cf99b706b610ddf18",
+        "zip_code": "44377",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 37,
+        "first_name": "Basil",
+        "last_name": "Mcintosh",
+        "email": "slinking1846@protonmail.com",
+        "password_hash": "84689e0fa6125493f4b28b7da0a8be01",
+        "zip_code": "93670",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 36,
+        "first_name": "Johnathon",
+        "last_name": "Mcintosh",
+        "email": "camused1954@live.com",
+        "password_hash": "cd613b4b22990f79c00ecec8b0ab4f0b",
+        "zip_code": "93670",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 39,
+        "first_name": "Joaquin",
+        "last_name": "Campos",
+        "email": "poephaga1999@outlook.com",
+        "password_hash": "c9d049ff36d18648d5adc04f62eda4ae",
+        "zip_code": "55009",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 38,
+        "first_name": "Rey",
+        "last_name": "Campos",
+        "email": "okinagan1802@yahoo.com",
+        "password_hash": "b7ba7efc00daea21b2d056a7eecb40aa",
+        "zip_code": "55009",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 41,
+        "first_name": "Rigoberto",
+        "last_name": "Boyer",
+        "email": "prefinanced2061@yahoo.com",
+        "password_hash": "55d859eff15dd8d5a39a0867a5f0ae4d",
+        "zip_code": "36209",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 40,
+        "first_name": "Steven",
+        "last_name": "Boyer",
+        "email": "phoniatry2033@yandex.com",
+        "password_hash": "c6a1dda6406d32938a703b2ce4f8a564",
+        "zip_code": "36209",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 43,
+        "first_name": "Brunilda",
+        "last_name": "Norris",
+        "email": "astonishing1955@protonmail.com",
+        "password_hash": "3fa109cd8112a2280eeadc5e694e4901",
+        "zip_code": "83495",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 42,
+        "first_name": "Librada",
+        "last_name": "Norris",
+        "email": "comix1843@gmail.com",
+        "password_hash": "6714e9ca5db9b798cbb990b0d8262aed",
+        "zip_code": "83495",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 45,
+        "first_name": "Nelida",
+        "last_name": "Hester",
+        "email": "fatuities1980@yandex.com",
+        "password_hash": "1aa36bd88437758a084521d3caf5e9d4",
+        "zip_code": "40362",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 44,
+        "first_name": "Joslyn",
+        "last_name": "Hester",
+        "email": "retort1838@outlook.com",
+        "password_hash": "2fdcb680cb6139e6e4bdfa07f9713127",
+        "zip_code": "40362",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 47,
+        "first_name": "Bruce",
+        "last_name": "Mccoy",
+        "email": "erythrocyte1933@live.com",
+        "password_hash": "ba3f06ea78888cf0c628a26d697d368c",
+        "zip_code": "41000",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 46,
+        "first_name": "Darryl",
+        "last_name": "Mccoy",
+        "email": "darnel2035@protonmail.com",
+        "password_hash": "8e99ed4289bb1a49729e5d6cadd5336d",
+        "zip_code": "41000",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 49,
+        "first_name": "Britt",
+        "last_name": "Williamson",
+        "email": "cervid1913@yahoo.com",
+        "password_hash": "e1ad8ae998102d22963140350f660073",
+        "zip_code": "60655",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 48,
+        "first_name": "Myles",
+        "last_name": "Williamson",
+        "email": "unfrequentable1896@live.com",
+        "password_hash": "0ed81d2f0316851004f2184e4c2e25ed",
+        "zip_code": "60655",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 51,
+        "first_name": "Hsiu",
+        "last_name": "Pittman",
+        "email": "interflow2039@live.com",
+        "password_hash": "cd449d7889c7795d7f3d944c9a442d48",
+        "zip_code": "05346",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 50,
+        "first_name": "Sixta",
+        "last_name": "Pittman",
+        "email": "kakapo2019@gmail.com",
+        "password_hash": "87ffb6ca498c3a12d09957f209425bf3",
+        "zip_code": "05346",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 53,
+        "first_name": "Danuta",
+        "last_name": "Lucas",
+        "email": "avenger1971@yandex.com",
+        "password_hash": "d4edd0bffa6be9d58d14addd395e5248",
+        "zip_code": "62976",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 52,
+        "first_name": "Danial",
+        "last_name": "Lucas",
+        "email": "synascidian2054@outlook.com",
+        "password_hash": "ac2d53218000ee5a7599f0a5a3056b41",
+        "zip_code": "62976",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 55,
+        "first_name": "Matt",
+        "last_name": "Brewer",
+        "email": "arctalian2031@outlook.com",
+        "password_hash": "38375679af552da2b63a089c3be09051",
+        "zip_code": "38845",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 54,
+        "first_name": "Daren",
+        "last_name": "Brewer",
+        "email": "coati1953@yandex.com",
+        "password_hash": "db83aeee59a4cb24ed29d63d8e1bffba",
+        "zip_code": "38845",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 57,
+        "first_name": "Leonila",
+        "last_name": "Bolton",
+        "email": "paseos1904@live.com",
+        "password_hash": "4bb4d20e23e30899f79ee72fbd2441c8",
+        "zip_code": "45942",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 56,
+        "first_name": "Marlon",
+        "last_name": "Bolton",
+        "email": "bongos2057@outlook.com",
+        "password_hash": "26dff474c1bb03deea26242e74f395b9",
+        "zip_code": "45942",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 59,
+        "first_name": "Son",
+        "last_name": "Harrington",
+        "email": "supercommendation1964@outlook.com",
+        "password_hash": "ca963f2b4cd2d9cafd0429f843791ab7",
+        "zip_code": "96421",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 58,
+        "first_name": "Dario",
+        "last_name": "Harrington",
+        "email": "ammeter1836@yandex.com",
+        "password_hash": "6e84af34be4685f279e5040503f65b6e",
+        "zip_code": "96421",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 61,
+        "first_name": "Carol",
+        "last_name": "Perkins",
+        "email": "bigman1976@yahoo.com",
+        "password_hash": "18c4a3b8c0a229ed4cf739f70ae7726f",
+        "zip_code": "30511",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 60,
+        "first_name": "Mee",
+        "last_name": "Perkins",
+        "email": "alveolate1806@live.com",
+        "password_hash": "c0de371eb2aeec1a832c61abd8347651",
+        "zip_code": "30511",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 63,
+        "first_name": "Terrell",
+        "last_name": "Garner",
+        "email": "mesothetic1821@live.com",
+        "password_hash": "273e1b6609287703684773b9dba2cb6c",
+        "zip_code": "28363",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 62,
+        "first_name": "Glenn",
+        "last_name": "Garner",
+        "email": "charmeuse2015@live.com",
+        "password_hash": "bf9d1b411bcc0ac2dd90b99e2c0250d4",
+        "zip_code": "28363",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 65,
+        "first_name": "Gustavo",
+        "last_name": "Lowe",
+        "email": "allergy1925@protonmail.com",
+        "password_hash": "b615076311ea15826174f92fbba73800",
+        "zip_code": "16826",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 64,
+        "first_name": "Beau",
+        "last_name": "Lowe",
+        "email": "benjamite1887@outlook.com",
+        "password_hash": "a76104d79e24054d3866f7832df3fcfc",
+        "zip_code": "16826",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 67,
+        "first_name": "Nestor",
+        "last_name": "May",
+        "email": "wakerife1847@yandex.com",
+        "password_hash": "b89f4d32ddc788803eebbf9e85416fcb",
+        "zip_code": "07410",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 66,
+        "first_name": "Earlie",
+        "last_name": "May",
+        "email": "lemonweed2013@gmail.com",
+        "password_hash": "630c8c5102c301d3628a82b9e8e9bf00",
+        "zip_code": "07410",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 69,
+        "first_name": "Alejandro",
+        "last_name": "Kerr",
+        "email": "abucco1825@outlook.com",
+        "password_hash": "e52143db6eb6dca3614d0078ccacd17e",
+        "zip_code": "30100",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 68,
+        "first_name": "Mardell",
+        "last_name": "Kerr",
+        "email": "braggers1838@protonmail.com",
+        "password_hash": "bd8912e85779384431410e4ac7c53506",
+        "zip_code": "30100",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 71,
+        "first_name": "Otto",
+        "last_name": "Moss",
+        "email": "ulcuscle1904@protonmail.com",
+        "password_hash": "06a8529189a965e5489ab4755d125b1a",
+        "zip_code": "42330",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 70,
+        "first_name": "Leigha",
+        "last_name": "Moss",
+        "email": "guars1813@yahoo.com",
+        "password_hash": "b04e820dc6cc0ac28950cc20000dc218",
+        "zip_code": "42330",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 73,
+        "first_name": "Felton",
+        "last_name": "Ball",
+        "email": "abucco1979@yandex.com",
+        "password_hash": "405468f596693939015c625f097b0d26",
+        "zip_code": "54117",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 72,
+        "first_name": "Glennie",
+        "last_name": "Ball",
+        "email": "princesse1937@live.com",
+        "password_hash": "ca4c7c1f036463c9a12d5946fecc0e56",
+        "zip_code": "54117",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 75,
+        "first_name": "Halina",
+        "last_name": "Leon",
+        "email": "blazon1933@outlook.com",
+        "password_hash": "f87d37bb9e32b3c80fa0422469a22a6c",
+        "zip_code": "39235",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 74,
+        "first_name": "Oralee",
+        "last_name": "Leon",
+        "email": "beelol1829@yandex.com",
+        "password_hash": "b9a95a716f9fbd42c539f52f71d8cb09",
+        "zip_code": "39235",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 77,
+        "first_name": "Vania",
+        "last_name": "Rutledge",
+        "email": "constructor1944@outlook.com",
+        "password_hash": "cdf5578a1dce4317ac38fd7fdfeaf153",
+        "zip_code": "54734",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 76,
+        "first_name": "Clorinda",
+        "last_name": "Rutledge",
+        "email": "routeman2024@live.com",
+        "password_hash": "44e5f9c088788daecf02f066451bd839",
+        "zip_code": "54734",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 79,
+        "first_name": "Waldo",
+        "last_name": "Gillespie",
+        "email": "symmetrically1800@gmail.com",
+        "password_hash": "ea78404012a4635f7a0e5135309867cd",
+        "zip_code": "49950",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 78,
+        "first_name": "Lesia",
+        "last_name": "Gillespie",
+        "email": "suprastandard2055@outlook.com",
+        "password_hash": "91e9737549c06708cb5ebeff8807ed1b",
+        "zip_code": "49950",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 81,
+        "first_name": "Andy",
+        "last_name": "Mckee",
+        "email": "cyrenaic2025@live.com",
+        "password_hash": "cf4846d4e4b3f263d8fb78107d17dfdb",
+        "zip_code": "32276",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 80,
+        "first_name": "Rodney",
+        "last_name": "Mckee",
+        "email": "drescher1974@gmail.com",
+        "password_hash": "031a34c8139ccb02f144a62575ba3144",
+        "zip_code": "32276",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 83,
+        "first_name": "Trey",
+        "last_name": "Hopper",
+        "email": "eyeshot1875@yahoo.com",
+        "password_hash": "54606929746a5c656388d286dc5921d9",
+        "zip_code": "86860",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 82,
+        "first_name": "Ben",
+        "last_name": "Hopper",
+        "email": "boyscout2070@yahoo.com",
+        "password_hash": "a8c8793d38ccdf907800327452882920",
+        "zip_code": "86860",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 85,
+        "first_name": "Blake",
+        "last_name": "Berger",
+        "email": "arthuriana2039@yahoo.com",
+        "password_hash": "511932af63137ce13a0935ea5811603e",
+        "zip_code": "22844",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 84,
+        "first_name": "Kazuko",
+        "last_name": "Berger",
+        "email": "cholones2038@gmail.com",
+        "password_hash": "7a95f3373471770d16890de033edb5f4",
+        "zip_code": "22844",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 87,
+        "first_name": "Blair",
+        "last_name": "Duffy",
+        "email": "unmanageably1913@outlook.com",
+        "password_hash": "d51b9efb9d290dc0d0bfa6bdc0aa0125",
+        "zip_code": "42369",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 86,
+        "first_name": "Faustino",
+        "last_name": "Duffy",
+        "email": "bezzo1804@protonmail.com",
+        "password_hash": "f8f08981dd56496359cbbfa26996e112",
+        "zip_code": "42369",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 89,
+        "first_name": "Freeman",
+        "last_name": "Horn",
+        "email": "sycophantry1876@yahoo.com",
+        "password_hash": "32e9a5125de810983eccaa393fbb5eca",
+        "zip_code": "82858",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 88,
+        "first_name": "Jayson",
+        "last_name": "Horn",
+        "email": "dissave1935@yandex.com",
+        "password_hash": "173b0fa86afd4961e6531f8702fd0348",
+        "zip_code": "82858",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 91,
+        "first_name": "Krysten",
+        "last_name": "Crawford",
+        "email": "scarlet2066@gmail.com",
+        "password_hash": "33cb1355d4c9f5b3836921e5672f4485",
+        "zip_code": "83032",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 90,
+        "first_name": "Lyndon",
+        "last_name": "Crawford",
+        "email": "toucan1899@outlook.com",
+        "password_hash": "90ea579557b69477fd5de940dfd94bb6",
+        "zip_code": "83032",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 93,
+        "first_name": "Claud",
+        "last_name": "Stanley",
+        "email": "pirogue2004@yahoo.com",
+        "password_hash": "c7143ac8d6c3fcce1535835553a1a1e5",
+        "zip_code": "37885",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 92,
+        "first_name": "Yelena",
+        "last_name": "Stanley",
+        "email": "avouch1813@protonmail.com",
+        "password_hash": "072434245284d540bbad0bfeefe194c3",
+        "zip_code": "37885",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 95,
+        "first_name": "Willis",
+        "last_name": "Vargas",
+        "email": "bambie2030@protonmail.com",
+        "password_hash": "22b7dc05b0ade1dea72c92be8c4e65f6",
+        "zip_code": "50325",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 94,
+        "first_name": "Laurene",
+        "last_name": "Vargas",
+        "email": "mothball1898@live.com",
+        "password_hash": "96dead5c2beb31bae8a57e2a91a55fe8",
+        "zip_code": "50325",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 97,
+        "first_name": "Darren",
+        "last_name": "Campos",
+        "email": "breakup1984@live.com",
+        "password_hash": "f0df973b15fb01204ba6979909588b20",
+        "zip_code": "71942",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 96,
+        "first_name": "Andres",
+        "last_name": "Campos",
+        "email": "outwept1993@gmail.com",
+        "password_hash": "3c9b91910293ffec5fb474de115d2d80",
+        "zip_code": "71942",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 99,
+        "first_name": "Lourie",
+        "last_name": "Molina",
+        "email": "tirl1801@gmail.com",
+        "password_hash": "cbc27d3ad6f14c146e8765db0d7ae4a4",
+        "zip_code": "80294",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 98,
+        "first_name": "Gino",
+        "last_name": "Molina",
+        "email": "marcello2000@gmail.com",
+        "password_hash": "a82b1ede840852c1d8fe4397c7191b6d",
+        "zip_code": "80294",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 101,
+        "first_name": "Nigel",
+        "last_name": "Murray",
+        "email": "chinotti1888@gmail.com",
+        "password_hash": "54435e0bae4233a2d0ec69db5343834a",
+        "zip_code": "54663",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 100,
+        "first_name": "Jaymie",
+        "last_name": "Murray",
+        "email": "pancreatitis1859@live.com",
+        "password_hash": "229015eae4deeeec9a435f3d06ba0818",
+        "zip_code": "54663",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 103,
+        "first_name": "Homer",
+        "last_name": "Rodriguez",
+        "email": "arras2015@protonmail.com",
+        "password_hash": "c7051da9cf8d1843c065bbe691b7ad19",
+        "zip_code": "78399",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 102,
+        "first_name": "Alayna",
+        "last_name": "Rodriguez",
+        "email": "schipperke1879@yandex.com",
+        "password_hash": "9ac5aad0f70456894e46e258310f47ca",
+        "zip_code": "78399",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 105,
+        "first_name": "Tommye",
+        "last_name": "Carter",
+        "email": "alien1921@gmail.com",
+        "password_hash": "13fad107e716d03133c77d07bb280594",
+        "zip_code": "20328",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 104,
+        "first_name": "Donovan",
+        "last_name": "Carter",
+        "email": "alterman2068@live.com",
+        "password_hash": "fb84a14edc9f0152c4b3e6e8cb67fe78",
+        "zip_code": "20328",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 107,
+        "first_name": "Malisa",
+        "last_name": "Gilmore",
+        "email": "jerries1973@live.com",
+        "password_hash": "56bc0eae9a1e04aa1d57837d33d650d9",
+        "zip_code": "33734",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 106,
+        "first_name": "Sulema",
+        "last_name": "Gilmore",
+        "email": "ceara1905@gmail.com",
+        "password_hash": "ebfa071f2bbe0b335af8c03b15ac0708",
+        "zip_code": "33734",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 109,
+        "first_name": "Moriah",
+        "last_name": "Livingston",
+        "email": "knurly2047@yahoo.com",
+        "password_hash": "5406e31fc8e75569362fda0c10cf5366",
+        "zip_code": "44910",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 108,
+        "first_name": "Felix",
+        "last_name": "Livingston",
+        "email": "bedlamite1943@gmail.com",
+        "password_hash": "ddcc209bc7ff5dd896a21e12e08d2f50",
+        "zip_code": "44910",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 111,
+        "first_name": "Tuyet",
+        "last_name": "Parsons",
+        "email": "dinners1886@protonmail.com",
+        "password_hash": "ce3ff523e19e217e80fba30facd85b91",
+        "zip_code": "61314",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 110,
+        "first_name": "Roselia",
+        "last_name": "Parsons",
+        "email": "dubose2070@protonmail.com",
+        "password_hash": "2553b518651bb67fc0b3a6624dc08059",
+        "zip_code": "61314",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 113,
+        "first_name": "Hermila",
+        "last_name": "Burke",
+        "email": "unawakableness1982@gmail.com",
+        "password_hash": "06486d0cfce1006d3e636a9503c12a3b",
+        "zip_code": "61994",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 112,
+        "first_name": "Sherman",
+        "last_name": "Burke",
+        "email": "winters2017@gmail.com",
+        "password_hash": "bf3eda77e48ae14c2721d05ab1e408bb",
+        "zip_code": "61994",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 115,
+        "first_name": "Lorenzo",
+        "last_name": "Sanchez",
+        "email": "reinterference1987@gmail.com",
+        "password_hash": "0810f7b42a264a16262cb85a83c41ac7",
+        "zip_code": "69674",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 114,
+        "first_name": "Bula",
+        "last_name": "Sanchez",
+        "email": "aqueduct1954@gmail.com",
+        "password_hash": "59202ad389d9f8a3e670ee6630f747fd",
+        "zip_code": "69674",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 117,
+        "first_name": "Lelah",
+        "last_name": "Moody",
+        "email": "reemits2045@gmail.com",
+        "password_hash": "54ae53870ffd056462ceba9d752d39c6",
+        "zip_code": "31213",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 116,
+        "first_name": "Trevor",
+        "last_name": "Moody",
+        "email": "minning1808@yahoo.com",
+        "password_hash": "b5ed021f15b40e222ca5d8952371e127",
+        "zip_code": "31213",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 119,
+        "first_name": "Meri",
+        "last_name": "Schroeder",
+        "email": "consolute1815@gmail.com",
+        "password_hash": "40a6213314d524f43a4dfd8d5a853d9d",
+        "zip_code": "38918",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 118,
+        "first_name": "Jenine",
+        "last_name": "Schroeder",
+        "email": "thoughtfree1859@yandex.com",
+        "password_hash": "daf19dc612282bf4fde30a319085ab98",
+        "zip_code": "38918",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 121,
+        "first_name": "Royal",
+        "last_name": "Briggs",
+        "email": "contemp1997@live.com",
+        "password_hash": "57dd5887b561daa5b003bf5f3198bb70",
+        "zip_code": "20701",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 120,
+        "first_name": "Jason",
+        "last_name": "Briggs",
+        "email": "african1870@yahoo.com",
+        "password_hash": "28b58fa09e9dc70e489baf11615a651a",
+        "zip_code": "20701",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 123,
+        "first_name": "Rex",
+        "last_name": "Carr",
+        "email": "afternight1950@gmail.com",
+        "password_hash": "81167f45f3d31ae459b11449b7a83fef",
+        "zip_code": "37568",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 122,
+        "first_name": "Dave",
+        "last_name": "Carr",
+        "email": "recalcitrating1832@outlook.com",
+        "password_hash": "48d7bb1b81e29759d444a24e16dcd077",
+        "zip_code": "37568",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 125,
+        "first_name": "Bert",
+        "last_name": "Hancock",
+        "email": "anathemas2046@outlook.com",
+        "password_hash": "5a3555005e3ab2b49604e9b295cd1428",
+        "zip_code": "55623",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 124,
+        "first_name": "Maragaret",
+        "last_name": "Hancock",
+        "email": "ephialtes1927@outlook.com",
+        "password_hash": "b04b303b410f7f7faab1a3b6a66b29f4",
+        "zip_code": "55623",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 127,
+        "first_name": "Jack",
+        "last_name": "Hoffman",
+        "email": "stinkbug1931@protonmail.com",
+        "password_hash": "4b94b94ada8f6141e0a9d3d7f0097f43",
+        "zip_code": "86632",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 126,
+        "first_name": "Lavona",
+        "last_name": "Hoffman",
+        "email": "sclerenchyme1849@yandex.com",
+        "password_hash": "4062660faf0b4da343f4f088c7278a0b",
+        "zip_code": "86632",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 129,
+        "first_name": "Coreen",
+        "last_name": "Burton",
+        "email": "enlivenment1830@yandex.com",
+        "password_hash": "26b4605beed902bf7226770c524ece86",
+        "zip_code": "26945",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 128,
+        "first_name": "Lilliana",
+        "last_name": "Burton",
+        "email": "beaverish1928@protonmail.com",
+        "password_hash": "d33c5073cbfc3bcf9d0846612f0220ad",
+        "zip_code": "26945",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 131,
+        "first_name": "Claretha",
+        "last_name": "Russo",
+        "email": "blazers1919@yahoo.com",
+        "password_hash": "4138cef5586f8e942122a3b442b0debd",
+        "zip_code": "89106",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 130,
+        "first_name": "William",
+        "last_name": "Russo",
+        "email": "protococcales2000@live.com",
+        "password_hash": "56d5e1cc7df7cb16a1866baf3d06cd71",
+        "zip_code": "89106",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 133,
+        "first_name": "Ha",
+        "last_name": "Carrillo",
+        "email": "definitized1991@protonmail.com",
+        "password_hash": "deb80fb3532ed0ec013765f139156c1c",
+        "zip_code": "90813",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 132,
+        "first_name": "Eduardo",
+        "last_name": "Carrillo",
+        "email": "batara1947@gmail.com",
+        "password_hash": "4563570e63a02d4abb59a72d3e95d114",
+        "zip_code": "90813",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 135,
+        "first_name": "Jarod",
+        "last_name": "Ochoa",
+        "email": "chlorozincate1986@gmail.com",
+        "password_hash": "a5049d10e0ac95b82052eb390edfa179",
+        "zip_code": "72484",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 134,
+        "first_name": "Barbar",
+        "last_name": "Ochoa",
+        "email": "oxymomora1867@protonmail.com",
+        "password_hash": "ed22a9c4f639a641e5f3741cf7cb262a",
+        "zip_code": "72484",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 137,
+        "first_name": "Estefana",
+        "last_name": "Moody",
+        "email": "dinosaur1807@yandex.com",
+        "password_hash": "ddf7e55faa1afdf755c09c9a7df7b28b",
+        "zip_code": "60829",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 136,
+        "first_name": "Torri",
+        "last_name": "Moody",
+        "email": "nebaliidae2034@yandex.com",
+        "password_hash": "de8787da48960d08d172efb2dc41588b",
+        "zip_code": "60829",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 139,
+        "first_name": "Derrick",
+        "last_name": "Garner",
+        "email": "atop1824@gmail.com",
+        "password_hash": "7a5816183ca281b755561b321e34381e",
+        "zip_code": "29132",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 138,
+        "first_name": "Yong",
+        "last_name": "Garner",
+        "email": "orthognathy1904@yahoo.com",
+        "password_hash": "7f0314aeff96380140722a1e7caae19a",
+        "zip_code": "29132",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 141,
+        "first_name": "Christia",
+        "last_name": "Hammond",
+        "email": "invite1834@yahoo.com",
+        "password_hash": "934543dd57bf35ef6d51d619afcd5ebd",
+        "zip_code": "35799",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 140,
+        "first_name": "Ron",
+        "last_name": "Hammond",
+        "email": "notturni1871@outlook.com",
+        "password_hash": "1672f0faff6835cdfae872e4be32e469",
+        "zip_code": "35799",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 143,
+        "first_name": "Karl",
+        "last_name": "Clemons",
+        "email": "lipomas1966@live.com",
+        "password_hash": "bc6fd785785195f180c19f2f13a3ff47",
+        "zip_code": "70347",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 142,
+        "first_name": "Nickie",
+        "last_name": "Clemons",
+        "email": "chinotti2053@gmail.com",
+        "password_hash": "ff1d6b34df0affa1dcbaec0a0892e804",
+        "zip_code": "70347",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 145,
+        "first_name": "Clemencia",
+        "last_name": "Knowles",
+        "email": "kloof2023@yahoo.com",
+        "password_hash": "d4838a2aa360265801260cc62160fba2",
+        "zip_code": "57402",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 144,
+        "first_name": "Dewitt",
+        "last_name": "Knowles",
+        "email": "darrin1930@protonmail.com",
+        "password_hash": "6c71f8f60e5d0febd74c0d4f9e587682",
+        "zip_code": "57402",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 147,
+        "first_name": "Terrilyn",
+        "last_name": "Fisher",
+        "email": "geometry1948@yahoo.com",
+        "password_hash": "623040de70d928a6e00152e63b5a595c",
+        "zip_code": "08755",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 146,
+        "first_name": "Chery",
+        "last_name": "Fisher",
+        "email": "peculiarise1906@yandex.com",
+        "password_hash": "5e891df59883a5c2c9227a4b3dd16810",
+        "zip_code": "08755",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 149,
+        "first_name": "Eloy",
+        "last_name": "Walker",
+        "email": "sonorosity2058@yahoo.com",
+        "password_hash": "44b82609a6f96295bcc6403b17e37469",
+        "zip_code": "11430",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 148,
+        "first_name": "Genaro",
+        "last_name": "Walker",
+        "email": "bijou2014@yahoo.com",
+        "password_hash": "504178f8c0384127a91a5cf29d87bb9a",
+        "zip_code": "11430",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 151,
+        "first_name": "Laverna",
+        "last_name": "Dawson",
+        "email": "blasphemy2007@yahoo.com",
+        "password_hash": "ede9c4909bc83424cb733b1b780284cf",
+        "zip_code": "74679",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 150,
+        "first_name": "Gail",
+        "last_name": "Dawson",
+        "email": "unsacrificial1855@protonmail.com",
+        "password_hash": "d935521978d9e246622076582868a721",
+        "zip_code": "74679",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 153,
+        "first_name": "Chas",
+        "last_name": "Galloway",
+        "email": "carful1826@outlook.com",
+        "password_hash": "1b5cf159bb68a64c40c3d0d9fa3d3c9c",
+        "zip_code": "24228",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 152,
+        "first_name": "Arthur",
+        "last_name": "Galloway",
+        "email": "burian1981@live.com",
+        "password_hash": "497c7ec93565633ece61222327be5ecf",
+        "zip_code": "24228",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 155,
+        "first_name": "Eric",
+        "last_name": "Mueller",
+        "email": "mithraize1979@gmail.com",
+        "password_hash": "db00e49e0d0ac6cbf65582a23743ac86",
+        "zip_code": "01442",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 154,
+        "first_name": "Ilda",
+        "last_name": "Mueller",
+        "email": "outsavoring1829@outlook.com",
+        "password_hash": "b9d5be834a408c261ed052f173e75837",
+        "zip_code": "01442",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 157,
+        "first_name": "Millard",
+        "last_name": "Patrick",
+        "email": "detin1992@protonmail.com",
+        "password_hash": "2a6d2f1e61707d519b6be62b95245640",
+        "zip_code": "23676",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 156,
+        "first_name": "Grisel",
+        "last_name": "Patrick",
+        "email": "speer2069@gmail.com",
+        "password_hash": "a0ec2b87c343cd1dab41c8882a212ba3",
+        "zip_code": "23676",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 159,
+        "first_name": "Donn",
+        "last_name": "Hardy",
+        "email": "saturants1919@outlook.com",
+        "password_hash": "85eec5c7ea2448122315faa01bf0e753",
+        "zip_code": "99272",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 158,
+        "first_name": "Tory",
+        "last_name": "Hardy",
+        "email": "bosom1972@yandex.com",
+        "password_hash": "4be1cbb89d9806932a3dd6b869213a8a",
+        "zip_code": "99272",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 161,
+        "first_name": "Young",
+        "last_name": "Vaughan",
+        "email": "unmanageably1806@protonmail.com",
+        "password_hash": "e8905cfe936a963eeea2d153fa14a22c",
+        "zip_code": "22437",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 160,
+        "first_name": "Adolph",
+        "last_name": "Vaughan",
+        "email": "crude1878@protonmail.com",
+        "password_hash": "2b115138db44623dc8a8df5235af3ff4",
+        "zip_code": "22437",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 163,
+        "first_name": "Marline",
+        "last_name": "Stone",
+        "email": "infirmness1865@gmail.com",
+        "password_hash": "a6f4542bcb8b2c401ae4c16e073f9488",
+        "zip_code": "71501",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 162,
+        "first_name": "Jamel",
+        "last_name": "Stone",
+        "email": "catheads2061@live.com",
+        "password_hash": "7c20461734ccc876a06e2cc7d7fe6ea5",
+        "zip_code": "71501",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 165,
+        "first_name": "Nick",
+        "last_name": "Saunders",
+        "email": "cantalas2055@outlook.com",
+        "password_hash": "9c79a79164a4d73a09d84cac0331238c",
+        "zip_code": "83652",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 164,
+        "first_name": "Bobbye",
+        "last_name": "Saunders",
+        "email": "azhar1873@live.com",
+        "password_hash": "cedbb5a9f7603fd5161d1da01e147329",
+        "zip_code": "83652",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 167,
+        "first_name": "Jerry",
+        "last_name": "Frederick",
+        "email": "paleornithologist1920@live.com",
+        "password_hash": "531dcdbf008eadd9d21bc1d2a290586a",
+        "zip_code": "68083",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 166,
+        "first_name": "Jewel",
+        "last_name": "Frederick",
+        "email": "anaesthetic1845@live.com",
+        "password_hash": "38f9e8affb2d1487cee0f95f3c8e14b9",
+        "zip_code": "68083",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 169,
+        "first_name": "Alton",
+        "last_name": "Edwards",
+        "email": "celature1909@outlook.com",
+        "password_hash": "4b4f545d8f5c29ba5055a165fc9d1d29",
+        "zip_code": "90469",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 168,
+        "first_name": "Shannon",
+        "last_name": "Edwards",
+        "email": "creating1880@live.com",
+        "password_hash": "7b70b5a481b5a5ccd96bbfa91fcb7281",
+        "zip_code": "90469",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 171,
+        "first_name": "Neta",
+        "last_name": "Mclean",
+        "email": "auspicious1884@live.com",
+        "password_hash": "3af05d27d0da841a867d79e6cb3ebcea",
+        "zip_code": "15672",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 170,
+        "first_name": "Jerold",
+        "last_name": "Mclean",
+        "email": "assault2032@outlook.com",
+        "password_hash": "a80eb6f8f372566901400ffdc7f8ca86",
+        "zip_code": "15672",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 173,
+        "first_name": "Maira",
+        "last_name": "Compton",
+        "email": "oryx1921@yahoo.com",
+        "password_hash": "9cbc9fe1501295cb1aa67e28c986c136",
+        "zip_code": "49858",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 172,
+        "first_name": "Chris",
+        "last_name": "Compton",
+        "email": "sideburns2024@live.com",
+        "password_hash": "719f73152ee217af6378c127cc296221",
+        "zip_code": "49858",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 175,
+        "first_name": "Ernest",
+        "last_name": "Frost",
+        "email": "almida1913@outlook.com",
+        "password_hash": "d8db144861a57555fbed382362637768",
+        "zip_code": "38904",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 174,
+        "first_name": "Vanda",
+        "last_name": "Frost",
+        "email": "coeducate1837@outlook.com",
+        "password_hash": "2b8c0d3c701f74280ebffea6980b1789",
+        "zip_code": "38904",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 177,
+        "first_name": "Richie",
+        "last_name": "Christensen",
+        "email": "shipworms2049@protonmail.com",
+        "password_hash": "9e9a80c30a083a03af53c94d375654f7",
+        "zip_code": "37944",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 176,
+        "first_name": "Belkis",
+        "last_name": "Christensen",
+        "email": "staunching1862@yandex.com",
+        "password_hash": "5b1c0a69d087cf9e95775225878fc72a",
+        "zip_code": "37944",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 179,
+        "first_name": "Carmelia",
+        "last_name": "Davis",
+        "email": "multibreak1950@yahoo.com",
+        "password_hash": "f1defade30ac911ed9c61e1d8a1344f6",
+        "zip_code": "61471",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 178,
+        "first_name": "Vanetta",
+        "last_name": "Davis",
+        "email": "crinoids1830@live.com",
+        "password_hash": "370a94d212fdc94f3ccd578261ac0171",
+        "zip_code": "61471",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 181,
+        "first_name": "Magaret",
+        "last_name": "Stuart",
+        "email": "paradise1834@live.com",
+        "password_hash": "d24b67096713e635971711820a8057c1",
+        "zip_code": "68839",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 180,
+        "first_name": "Ariane",
+        "last_name": "Stuart",
+        "email": "octachord2019@protonmail.com",
+        "password_hash": "9810282f63a17519a663eeffc8ac1075",
+        "zip_code": "68839",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 183,
+        "first_name": "Florrie",
+        "last_name": "Buckner",
+        "email": "cordinar1900@yandex.com",
+        "password_hash": "f349f1c1ba020f28cd046321f7128b58",
+        "zip_code": "32970",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 182,
+        "first_name": "Rafael",
+        "last_name": "Buckner",
+        "email": "chaudry2000@yahoo.com",
+        "password_hash": "0fc4d239bdf6ac7c52efc7d9164dac5f",
+        "zip_code": "32970",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 185,
+        "first_name": "Kristofer",
+        "last_name": "Meadows",
+        "email": "dendral1994@protonmail.com",
+        "password_hash": "bd565deb362ef57b4dd4f758f08e0eed",
+        "zip_code": "51825",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 184,
+        "first_name": "Damien",
+        "last_name": "Meadows",
+        "email": "batwa1902@gmail.com",
+        "password_hash": "239b0a4da7f759c5fa4bfca26ff4d21c",
+        "zip_code": "51825",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 187,
+        "first_name": "Hermina",
+        "last_name": "Cobb",
+        "email": "fluffs1879@yandex.com",
+        "password_hash": "f0ac01631fd2765752ebce95c8178f63",
+        "zip_code": "59145",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 186,
+        "first_name": "Micheal",
+        "last_name": "Cobb",
+        "email": "intradepartment1852@gmail.com",
+        "password_hash": "6c2c99e215f8bd379534593f0a1f03cd",
+        "zip_code": "59145",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 189,
+        "first_name": "Jamie",
+        "last_name": "Horn",
+        "email": "unseduceability1880@outlook.com",
+        "password_hash": "b1d490933d965e0e9461286b5277c038",
+        "zip_code": "01121",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 188,
+        "first_name": "Davis",
+        "last_name": "Horn",
+        "email": "alert1845@gmail.com",
+        "password_hash": "bb1089c7915dee6ad88f92cb24d5fb01",
+        "zip_code": "01121",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 191,
+        "first_name": "Lindsy",
+        "last_name": "Blackwell",
+        "email": "massekhoth1834@live.com",
+        "password_hash": "3ab9f36b80a3df9b0e625025770fcb5e",
+        "zip_code": "57632",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 190,
+        "first_name": "Londa",
+        "last_name": "Blackwell",
+        "email": "going1833@yandex.com",
+        "password_hash": "86c847ed63f8f3c8ced909ad7c3eb844",
+        "zip_code": "57632",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 193,
+        "first_name": "Cristobal",
+        "last_name": "Mueller",
+        "email": "anaconda1941@outlook.com",
+        "password_hash": "f69d50d346b34dfcea1a5fb854907a6b",
+        "zip_code": "07015",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 192,
+        "first_name": "Mica",
+        "last_name": "Mueller",
+        "email": "unconsolable1972@outlook.com",
+        "password_hash": "e72232360b23b5c7a1f3e06fff385e6d",
+        "zip_code": "07015",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 195,
+        "first_name": "Vaughn",
+        "last_name": "Jefferson",
+        "email": "malpracticing1878@outlook.com",
+        "password_hash": "f444b968ae98f45984822b993ed4c4b4",
+        "zip_code": "39134",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 194,
+        "first_name": "Caron",
+        "last_name": "Jefferson",
+        "email": "bitterness1976@live.com",
+        "password_hash": "1866377901e5cde4deab0f899f068d9c",
+        "zip_code": "39134",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 197,
+        "first_name": "Maxwell",
+        "last_name": "Mcintyre",
+        "email": "undercarter1825@live.com",
+        "password_hash": "736cf1c9ec36d85204f2b324de79b210",
+        "zip_code": "97184",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 196,
+        "first_name": "Hunter",
+        "last_name": "Mcintyre",
+        "email": "alkoxid1858@gmail.com",
+        "password_hash": "3b14195e12d7f7bdcdaf7aa1f0e82a96",
+        "zip_code": "97184",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 199,
+        "first_name": "Domingo",
+        "last_name": "Mcpherson",
+        "email": "basilosauridae2024@yandex.com",
+        "password_hash": "1be824d0be7b8a4ab56d8ab9de7bad93",
+        "zip_code": "33808",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 198,
+        "first_name": "Lon",
+        "last_name": "Mcpherson",
+        "email": "corena1944@yandex.com",
+        "password_hash": "9f3475051ab1a4f5235bbbe1476c6cd8",
+        "zip_code": "33808",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 201,
+        "first_name": "Quyen",
+        "last_name": "Trevino",
+        "email": "transmissionist2030@outlook.com",
+        "password_hash": "1dfbb290f9402ca36fb8cbb4909afec8",
+        "zip_code": "67399",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    },
+    {
+        "artist_id": 200,
+        "first_name": "Guadalupe",
+        "last_name": "Trevino",
+        "email": "thick2052@yahoo.com",
+        "password_hash": "158dd6b78419f62fcf70c2f8dc158cd4",
+        "zip_code": "67399",
+        "inserted_dt": "2020-05-03 02:25:48+00:00",
+        "updated_dt": "2020-05-03 02:25:48+00:00"
+    }
+]

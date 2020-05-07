@@ -8,8 +8,7 @@ import stripe
 from flask import Flask, render_template, jsonify, request
 from flask_restful import Resource, Api
 
-stripe.api_key = os.environ.get('STRIPE_API_KEY')
-
+stripe.api_key = os.environ.get("STRIPE_API_KEY")
 
 
 class PaymentIntent(Resource):
@@ -18,19 +17,18 @@ class PaymentIntent(Resource):
     Arguments:
         Resource {Flask-Restful Resource} -- Resource to use for routing
     """
+
     # TODO replace receipt_email with the parent's email address
     def post(self):
         try:
             data = json.loads(request.data)
             intent = stripe.PaymentIntent.create(
-                amount=calculate_order_amount(data['items']),
-                currency='usd',
+                amount=calculate_order_amount(data["items"]),
+                currency="usd",
                 payment_method_types=["card"],
-                receipt_email="bear.davis@example.com"
+                receipt_email="bear.davis@example.com",
             )
-            return jsonify({
-              'clientSecret': intent['client_secret']
-            })
+            return jsonify({"clientSecret": intent["client_secret"]})
         except Exception as e:
             return jsonify(error=str(e)), 403
 
