@@ -5,8 +5,8 @@ import json
 import os
 
 import stripe
-from flask import Flask, render_template, jsonify, request
-from flask_restful import Resource, Api
+from flask import jsonify, request
+from flask_restful import Resource
 
 stripe.api_key = os.environ.get('STRIPE_API_KEY')
 
@@ -58,7 +58,12 @@ class StripeWebhook(Resource):
 
 
 class PaymentIntent(Resource):
-    """Endpoint for creating payment intent objects
+    """Endpoint for creating payment intent objects.
+
+    After this object is sent to Stripe, the frontend will display
+    a box for entering credit card info and submit that data to
+    stripe directly. Then Stripe will notify us via the webhook
+    endpoint if the payment succeeded or failed
 
     Arguments:
         Resource {Flask-Restful Resource} -- Resource to use for routing

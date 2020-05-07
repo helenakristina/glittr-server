@@ -5,3 +5,4 @@ gunicorn
 Flask-Migrate
 stripe
 flask-cors
+requests
