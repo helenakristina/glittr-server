@@ -7,7 +7,7 @@ from flask_migrate import Migrate
 from flask_cors import CORS
 
 from glittr.database.db import get_artist, add_artist
-from glittr.integrations.payment import PaymentIntent
+from glittr.integrations.payment import PaymentIntent, ChargeSavedCard, StripeWebhook
 
 app = Flask(__name__)
 api = Api(app)
@@ -35,12 +35,8 @@ class HealthCheck(Resource):
 
 class ArtistEndpoint(Resource):
     def get(self, artist_id):
-
-        try:
-            return get_artist(artist_id, app)
-        except Exception as ex:
-            print(ex)
-
+        return get_artist(artist_id, app)
+        
     def put(self, artist_id):
         artist = request.json
         return artist

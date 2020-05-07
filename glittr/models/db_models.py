@@ -36,6 +36,7 @@ class Artist(db.Model):
             "first_name": self.first_name,
             "last_name": self.last_name,
             "email": self.email,
+            "zip_code": self.zip_code,
         }
         return json.dumps(artist)
 
